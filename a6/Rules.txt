@@ -1,0 +1,83 @@
+How to play Uno
+
+In Uno, there are four colors, red, blue, yellow, green, as well as wild cards.
+Each card (except for the wild cards) have a number or symbol. Each player 
+starts with seven cards, one card is flipped over from the top of the deck as
+the start card. You, the player, goes first. The card you play must play a card
+from your hand that matches either the color, or the number/action of the start 
+card. You play a card with the command "play" followed by the name of the card.
+Then play passes to the computer, which must also play a card that matches
+the color or number/action of the card you played, which is the new top card.
+Play continues in this manner until one player either a) has only one card left
+or b) one player doesn't have any playable cards. In the case that a player has
+only one card left, they must declare "Uno!" by typing the command "uno".  
+
+Every time a player has only one card left, even if they had one card, drew a 
+card, then immediately played that card, they must declare uno. If another
+player declares uno before the player with only one card, then the player with 
+only one card will automatically draw two cards.  
+
+If a player has no playable cards, they must draw a card from the deck with the 
+command "draw." If that card is playable, the player can play in with the "play"
+command, if not, the player passes with the "pass" command. You cannot pass 
+unless you've drawn a card.  
+
+If the start card is an action card that is not a Wild or a Wild PlusFour, then 
+the action applies to the first player. If the start card is a Wild then the 
+first player gets to choose an initial color. If the start card is a Wild  
+PlusFour it will be returned to the deck, the deck will be reshuffled, and a new 
+start card will be drawn.  
+
+NumberCards: Each card (except Wild cards) has a color, and a number or action.
+The numbered cards have the numbers 0 through 9 and are played by matching
+either the color or number to the top card. They are played with the command
+"play" followed by the color of the card, then its number, for example,
+"play blue 7" or "play Yellow 8". The commands are not case sensitive. 
+
+The action cards all have colors and actions, either Reverse, Skip, or PlusTwo.
+They are played by matching either their color or action to the top card.
+They are played with the command "play" followed by the color then the action,
+for example, "play blue skip" or "play green plustwo". The commands are not
+case sensitive.  
+
+Reverse: Reverse cards reverse the direction of game play. In a two player game 
+they have no effect. They are played with the command "play <color> reverse" for
+example, to play a green reverse, use "play green reverse". The commands are 
+not case sensitive. 
+
+Skip: Skip cards skip the next player's turn. In a two player game, playing a 
+Skip allows you to immediately play another card. They are played with the 
+command "play <color> skip" for example, to play a green skip, use 
+"play green skip". The commands are not case sensitive. 
+
+PlusTwo: PlusTwo cards (also called Draw Twos) force the next player to draw two 
+cards from the deck, and skips their turn. If a PlusTwo is played on you, you 
+will automatically draw two cards.  They are played with the command 
+"play <color> plustwo" for example, to play a green plustwo, use 
+"play green plustwo". The commands are not case sensitive. 
+
+Wild: The wild cards are either Wild or Wild PlusFour. These cards can be 
+played whenever it's your turn, and do not have to match the top card.
+When the computer plays a wild, it will be displayed as "Color Wild", where 
+Color is the color the computer chose. You must play a card from your hand that
+matches the color the computer has chosen.
+Wild cards are played with the command "play wild" followed by the color you
+want to change it to. For example, "play wild red" or "play wild yellow".
+The commands are not case sensitive. 
+
+PlusFour: When a Wild PlusFour is played, the next player will have to draw four 
+cards. If a PlusFour is played on you, you will automatically draw four cards. 
+Drawing counts as the drawing player's turn. 
+Wild PlusFours are played with the command "play plusfour" followed by the 
+color you want to change it to. For example, "play plusfour green". The 
+commands are not case sensitive. 
+
+The game ends when one player plays all of their cards.  
+
+The above rules are for Standard Mode.
+For Stacking Mode, the rules are almost identical, except you can stack 
+plustwos, and cards with the same number (and so play multiple cards on your
+turn). 
+For Draw Forever Mode, the rules are almost identical except if you have no
+playable cards, you must draw cards until you have a card you can play, and 
+then play that card to end your turn. 

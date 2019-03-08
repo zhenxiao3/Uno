@@ -1,0 +1,34 @@
+Commands: 
+
+<Quit> is used to end the game. The command is not case sensitive. 
+
+<Draw> is used to draw a single card. You must draw before you can pass in 
+Standard Mode and Stacking Mode. In Draw Forever Mode you must draw until
+you have a card you can play. The command is not case sensitive. 
+
+<Uno> is called before you make any moves when you only have one card in your 
+hand. The command is not case sensitive. 
+
+<Pass> is used to pass your turn to the next player. In Standard Mode and 
+Stacking Mode, you can only pass after you've drawn. In Draw Forever Mode, you
+can never pass. The command is not case sensitive. 
+
+<Rules> displays the rules of the game. The command is not case sensitive. 
+
+<Help> followed by the name of a card or a command to give you information on 
+how to use that card or command. The format for help commands is 
+"help <cardtype>" for example, "help skip", "help wild", or "help 3". 
+The command is not case sensitive. 
+
+<Play> followed by the color then the number or action of the card you wish the 
+play, plays that card. For example, "play green skip" or "play blue 7". For 
+help playing Wilds and PlusFours use "help wild" or "help plusfour". 
+The command and card name/action are not case sensitive. 
+
+<ChangeName> followed by whatever you wish to change you name to, changes your
+name to that name. Note, your name will be whatever phrase or name you enter 
+with the first letter of each word capitalized and every other letter lowercase.
+The command and following name are not case sensitive. 
+
+
+ 
